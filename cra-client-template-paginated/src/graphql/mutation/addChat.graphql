@@ -1,0 +1,10 @@
+mutation AddChat($input: ChatInput) {
+  addChat(input: $input) {
+    chat {
+  ...RegularChat
+    }
+    error {
+      message
+    }
+  }
+}

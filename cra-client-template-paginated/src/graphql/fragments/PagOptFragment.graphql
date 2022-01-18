@@ -1,0 +1,11 @@
+fragment RegularPagOpt on PagOpt{
+    totalDocs
+    limit
+    page
+    totalPages
+    pagingCounter
+    hasPrevPage
+    hasNextPage
+    prevPage
+    nextPage
+}

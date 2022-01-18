@@ -1,0 +1,10 @@
+mutation UpdateChat($input: ChatInput, $id: ID) {
+  updateChat(input: $input, id: $id) {
+    chat {
+ ...RegularChat
+    }
+    error {
+      message
+    }
+  }
+}

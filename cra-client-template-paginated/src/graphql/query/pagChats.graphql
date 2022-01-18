@@ -1,0 +1,10 @@
+query PagChats($limit: Int, $page: Int) {
+  pagChats(limit: $limit, page: $page) {
+    chats {
+ ...RegularChat
+    }
+    pagopt {
+...RegularPagOpt
+    }
+  }
+}

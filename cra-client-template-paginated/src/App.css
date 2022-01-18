@@ -1,0 +1,33 @@
+.container {
+  height: 100vh;
+   width: 100vw;
+   border: 2px solid white;
+ }
+ 
+ .main {
+   display: flex;
+   height: 60vh;
+   width:100%;
+   flex-direction: column;
+   align-items: center;
+   border: 2px purple solid;
+   overflow-y: scroll;
+ }
+ 
+ .footer {
+   display: flex;
+   flex: 1;
+   padding: 10px;
+   height: 20vh;
+   background-color: rgb(219, 210, 161);
+   border: 1px solid #eaeaea;
+   justify-content: center;
+   align-items: center;
+   min-width: 100%; 
+   position:fixed;
+   bottom:0;
+   right: 0;
+   left:0;
+ 
+ }
+ 
