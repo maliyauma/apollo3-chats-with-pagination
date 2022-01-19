@@ -50,13 +50,7 @@ const cache = new InMemoryCache({
                 console.log(incoming?.chats[i]);
                 chats.push(incoming?.chats[i]);
               }
-            } else if (existingArr.length >= 3) {
-              console.log("no existing exist");
-              for (let i = 3; i < incoming.chats.length; ++i) {
-                console.log(incoming?.chats[i]);
-                chats.push(incoming?.chats[i]);
-              }
-            }
+            } 
 
             const merged = { chats, __typename: "ShortList", pagopt };
             console.log("merged fields are   ======== ", merged);
